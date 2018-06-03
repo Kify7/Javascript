@@ -33,7 +33,7 @@ alert (alumno.nombre = "wuwu");
 
  /*  console.log() USANDO INSPECCION EN NAVEGADOR*/
  
-console.log (20 == 20);
+// console.log (20 == 20);
 // console.log (20 = 21);
 // console.log (20 = 22);
 
@@ -95,6 +95,157 @@ comparar(edad1 + edad2); */
 
 /* Se Pueden Declarar Variables dentro de las Funciones */
 
-function comparar(x) { console.log( x > 18 && x < 30);
+/* function comparar(x) { console.log( x > 18 && x < 30);
     var zz = 15
 }
+ */
+
+ /* Funciones Matemáticas */
+
+/*  function resta (x, y){
+     return x-y
+ }
+
+ var x = resta (10, 4)
+console.log(x);
+
+ */
+
+
+ /* CONDICIONALES */
+
+/* if (true)
+console.log("hey");
+console.log("yup");
+console.log("buu");
+ */
+// si el primer if e sverdadero, los demás if no se ejecutaran
+
+/* var edad = 20
+if (edad  > 18 && edad < 30) {
+    console.log( "hey!! si puedes tomar café");
+    
+}
+else if (edad < 18 ) {
+    console.log("toma con precaución");
+
+    
+}
+
+else { console.log("oops");
+}
+
+ */
+
+
+/* 
+ var edad = 8
+
+ if (edad > 10) {
+     console.log("puedes tomar cafe");
+     
+ }
+else {
+    console.log("no puedes tomar café");
+    
+}
+ */
+
+
+/* CONDICIONAL SWITCH */
+
+/* var name = "kify"
+
+switch (name) {
+    case "kify":
+    console.log("hey que onda" + name);
+    break;
+
+    case "Marco":
+    console.log("kiubo banda" + name);
+    break;
+
+    case "Paola":
+    console.log( name + "hey dude");
+    break;
+
+    default: console.log("salu2 cordiales");
+    
+}
+
+ */
+// break indica el final del caso
+
+/* var estado = "Morelos";
+var municipios = [];
+
+switch(estado) {
+    
+    case "DF":
+    console.log("Atzcapotzalco", "Benito Juarez", "Miguel Hidaldo", "Alvaro Obregón", "Coyoacán");
+    break;
+
+    case "Morelos":
+    console.log("Tequesquitengo", "Cocoyoc", "Atotonilco", "Xochitepec",);
+    break;
+} 
+
+console.log(municipios);
+ */
+
+
+ /*  CICLOS - LOOPS*/
+// se declara variable interna
+
+/* for ( var i = 0; i > 10; i++){
+    console.log(i);
+    
+}
+ */
+
+/* var arreglo = ["Claudia", "Paola" , "Marco", "Margarita", "Moni", "Josue", "Angélica"]
+console.log(arreglo.length);
+ */
+
+/* for (var i = 0; i < arreglo.length; i++ ) {
+    console.log("salu2" + arreglo[i]);
+    
+} */
+
+
+
+/* for ( var i = arreglo.length - 1; i >= 0; i--) {
+    console.log("salu2" + arreglo[i]);
+    
+}
+ */
+
+
+ function comparar(x){
+     console.log("puede tomar"), x > 18 && x < 35;
+     
+ }
+ 
+ var arreglo = [20, 25, 30, 16, 29, 45, 67]
+ for (var i = 0; i < arreglo.length; i++) {
+     console.log();
+     
+ }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
