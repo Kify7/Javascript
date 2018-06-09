@@ -1,5 +1,8 @@
 // tipos de datos
 /* 
+
+Datos NATIVOS :
+
 string  cadena de Texto
 number  numero
 boolean true or false
@@ -221,16 +224,191 @@ console.log(arreglo.length);
  */
 
 
- function comparar(x){
+/*  function comparar(x){
      console.log("puede tomar"), x > 18 && x < 35;
      
  }
- 
+
  var arreglo = [20, 25, 30, 16, 29, 45, 67]
  for (var i = 0; i < arreglo.length; i++) {
      console.log();
      
  }
+ */
+
+ /* WHILE */
+/* 
+var i = 0
+
+while (i < 10) {
+    console.log(i);
+
+    
+} */
+
+/* Como se comportan los Datos y los Grupos de Datos*/
+
+/* var x = "Karla";
+var y = 868;
+var z = true;
+
+var arreglo = ["Marco","Pao","Karla"];
+var obj = {}; */
+
+/* var w = y;
+w = 10;
+
+console.log(w);
+console.log(y); */
+
+/* 77777777777777777777777777777 */
+
+/* var w = arreglo;
+w[1] = "Pan" 
+
+console.log(arreglo);
+console.log(w);
+
+ *//* 77777777777777777777777 */
+
+/* var w = arreglo;
+w = "Pan"
+arreglo = "Leche"
+
+console.log(arreglo);
+console.log(w);
+ */
+
+ /* 7777777777777777777777777777777 */
+
+
+ /* SCOPE : las variables no pueden salir más allá de donde están definidas */
+/* var x = 0;
+
+ for (var i = 0; i < 10; i++) {
+     x = x + 2
+ } */
+
+ /* 77777777777777777777 */
+/* var x = 0;
+console.log(x);
+
+var y = 1;
+var z = 1;
+
+ for (var i = 0; i < 30; i++) {
+     console.log(z);
+    z = x + y;
+    x = y;
+    y = z;
+            
+ } */
+
+ /* 7777777777777777777777777 */
+
+/*  Invertir una Cadena */
+
+/* function esPalindromo(cadena) {
+    for (var i = 0; i < cadena.length; i++) {
+        var n = i + 1;
+
+        // console.log(cadena[index]) != cadena [cadena.length - n];
+
+        if (cadena [i]) != cadena[cadena.length - n] {
+            return false;
+        }
+        
+    }
+
+    return true;
+}
+
+console.log("Es Palindromo?" + esPalindromo (repar));
+ */
+
+ /* 777777777777777777777777777777
+ 
+ */
+
+ /* Ejercicios de Funciones "Problemas" */
+/* 
+ function siglo(year) {
+    var x = parseInt(year)
+    var y = parseFloat(year)
+    console.log(x, y);
+    
+ }
+
+siglo("1990") */
+   
+
+
+/* function siglo(year) {
+    var x = parseInt(year);
+    var y = x / 100;
+    console.log(Math.floor(y) + 1 );
+    
+}
+
+siglo("1990")
+ */
+
+
+// x = 0
+
+// for (vai i =vai i <  i++) {
+//     const element = arvai i];
+    
+// } 
+
+/* function productoAdyacente(arreglo) {
+    var x;
+    var x = arreglo[0]*arreglo[1];
+
+    for (var i = 0; i < i + arreglo.lenght - 1; i++) {
+        var y = arreglo[1]*arreglo[i+1];
+    if (y > x ){
+        x = y
+    }
+        
+ }
+ return x; 
+}
+
+
+var ggg = [-23, 4, -3, 8, -12]
+console.log(productoAdyacente(ggg)); */
+
+
+/* 777777777777777777777777777777777 */
+
+function sortArray(arreglo) {
+    for(var i= 0; i < arreglo.lenght; i++)
+{
+    var cuenta = 0;
+        for (var j = 0; j < arreglo.lenght; j++) {
+            if (arreglo[i] > arreglo[j]){
+                cuenta++;
+            }
+        
+        }
+
+        console.log("cuenta" + cuenta);
+        console.log(arreglo[cuenta] = arreglo[1]);
+        
+ 
+    
+    }
+}
+
+sortArray([8, -20, 10])
+
+
+
+
+
+
+
 
 
 
